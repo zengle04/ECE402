@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "b3b9d018-954a-4fab-ac7e-c234f13b80c6")
 	(paper "A")
+	(title_block
+		(title "ESP32 Bluetooth DAC/AMP")
+		(date "2026-02-19")
+		(rev "A")
+		(company "ECE402")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
@@ -2575,7 +2581,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U3"
-				(at 0.254 0.762 0)
+				(at 1.778 1.27 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2583,7 +2589,7 @@
 				)
 			)
 			(property "Value" "BQ25308RTER"
-				(at 0.254 -1.778 0)
+				(at 23.622 -30.988 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -2591,7 +2597,7 @@
 				)
 			)
 			(property "Footprint" "WQFN16_RTE_TEX"
-				(at -20.32 11.43 0)
+				(at 44.958 -22.606 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2601,7 +2607,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/gpn/bq25308"
-				(at -20.32 11.43 0)
+				(at 55.118 -25.654 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2648,7 +2654,7 @@
 			(symbol "BQ25308RTER_0_1"
 				(polyline
 					(pts
-						(xy -12.7 13.97) (xy -12.7 -15.24)
+						(xy 0 0) (xy 0 -29.21)
 					)
 					(stroke
 						(width 0.127)
@@ -2660,7 +2666,7 @@
 				)
 				(polyline
 					(pts
-						(xy -12.7 -15.24) (xy 12.7 -15.24)
+						(xy 0 -29.21) (xy 25.4 -29.21)
 					)
 					(stroke
 						(width 0.127)
@@ -2672,7 +2678,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 13.97) (xy -12.7 13.97)
+						(xy 25.4 0) (xy 0 0)
 					)
 					(stroke
 						(width 0.127)
@@ -2684,7 +2690,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -15.24) (xy 12.7 13.97)
+						(xy 25.4 -29.21) (xy 25.4 0)
 					)
 					(stroke
 						(width 0.127)
@@ -2695,7 +2701,7 @@
 					)
 				)
 				(pin output line
-					(at -17.78 8.89 0)
+					(at -5.08 -5.08 0)
 					(length 5.08)
 					(name "STAT"
 						(effects
@@ -2713,7 +2719,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 5.08 0)
+					(at -5.08 -8.89 0)
 					(length 5.08)
 					(name "ICHG"
 						(effects
@@ -2731,7 +2737,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 1.27 0)
+					(at -5.08 -12.7 0)
 					(length 5.08)
 					(name "POL"
 						(effects
@@ -2749,7 +2755,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 -2.54 0)
+					(at -5.08 -16.51 0)
 					(length 5.08)
 					(name "*EN"
 						(effects
@@ -2767,7 +2773,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 -6.35 0)
+					(at -5.08 -20.32 0)
 					(length 5.08)
 					(name "TS"
 						(effects
@@ -2785,7 +2791,7 @@
 					)
 				)
 				(pin no_connect line
-					(at -17.78 -10.16 0)
+					(at -5.08 -24.13 0)
 					(length 5.08)
 					(name "NC"
 						(effects
@@ -2803,7 +2809,7 @@
 					)
 				)
 				(pin unspecified line
-					(at -6.35 -20.32 90)
+					(at 6.35 -34.29 90)
 					(length 5.08)
 					(name "EPAD"
 						(effects
@@ -2821,7 +2827,7 @@
 					)
 				)
 				(pin power_out line
-					(at -1.27 -20.32 90)
+					(at 11.43 -34.29 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -2839,7 +2845,7 @@
 					)
 				)
 				(pin power_out line
-					(at 1.27 -20.32 90)
+					(at 13.97 -34.29 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -2857,7 +2863,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 8.89 180)
+					(at 30.48 -5.08 180)
 					(length 5.08)
 					(name "BTST"
 						(effects
@@ -2875,7 +2881,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 1.27 180)
+					(at 30.48 -12.7 180)
 					(length 5.08)
 					(name "SW"
 						(effects
@@ -2893,7 +2899,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 -1.27 180)
+					(at 30.48 -15.24 180)
 					(length 5.08)
 					(name "SW"
 						(effects
@@ -2911,7 +2917,7 @@
 					)
 				)
 				(pin input line
-					(at 17.78 -6.35 180)
+					(at 30.48 -20.32 180)
 					(length 5.08)
 					(name "BAT"
 						(effects
@@ -2929,7 +2935,7 @@
 					)
 				)
 				(pin input line
-					(at 17.78 -11.43 180)
+					(at 30.48 -25.4 180)
 					(length 5.08)
 					(name "VSET"
 						(effects
@@ -2949,7 +2955,7 @@
 			)
 			(symbol "BQ25308RTER_1_1"
 				(pin power_in line
-					(at -6.35 19.05 270)
+					(at 6.35 5.08 270)
 					(length 5.08)
 					(name "VBUS"
 						(effects
@@ -2967,7 +2973,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 19.05 270)
+					(at 12.7 5.08 270)
 					(length 5.08)
 					(name "REGN"
 						(effects
@@ -2985,7 +2991,7 @@
 					)
 				)
 				(pin power_in line
-					(at 6.35 19.05 270)
+					(at 19.05 5.08 270)
 					(length 5.08)
 					(name "PMID"
 						(effects
@@ -3013,7 +3019,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U1"
-				(at 0 -5.842 0)
+				(at 1.524 1.27 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -3021,15 +3027,15 @@
 				)
 			)
 			(property "Value" "PCM5100APWR"
-				(at 0 -9.652 0)
+				(at 17.018 1.27 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Footprint" "ECE402FinalProj:PCM5100APWR"
-				(at -2.54 -2.54 0)
+			(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+				(at 59.944 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3039,7 +3045,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.ti.com/lit/gpn/pcm5100a"
-				(at -2.54 -2.54 0)
+				(at 64.008 -28.702 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3048,8 +3054,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Description" "IC DAC 16/24/32BIT 384K 20TSSOP"
+				(at 62.738 -25.146 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3057,12 +3063,40 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
+			(property "Mfg" "Texas Instruments"
+				(at 53.594 -31.75 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(property "Part No." "PCM5100APWR"
+				(at 51.816 -35.052 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "https://www.digikey.com/en/products/detail/texas-instruments/PCM5100APWR/4341332?gclsrc=aw.ds&gad_source=1&gad_campaignid=17338792030&gbraid=0AAAAADrbLlikoHYVm1EAT8Ro0lFRq30vw&gclid=CjwKCAiAv5bMBhAIEiwAqP9GuJ40P9n3nzht8Krs9izPPDkGNq60HQeCsuY7D_maf0OzrZdjZgSlNBoC1acQAvD_BwE"
+				(at 197.866 -38.354 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 2" "https://www.lcsc.com/search?q=PCM5100APWR&s_z=n_PCM5100APWR"
+				(at 78.994 -41.656 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
 				)
 			)
 			(property "ki_keywords" "PCM5100APWR"
@@ -3086,7 +3120,7 @@
 			(symbol "PCM5100APWR_0_1"
 				(polyline
 					(pts
-						(xy -12.7 26.67) (xy -12.7 -26.67)
+						(xy 0 0) (xy 0 -53.34)
 					)
 					(stroke
 						(width 0.1016)
@@ -3098,7 +3132,7 @@
 				)
 				(polyline
 					(pts
-						(xy -12.7 -26.67) (xy 12.7 -26.67)
+						(xy 0 -53.34) (xy 25.4 -53.34)
 					)
 					(stroke
 						(width 0.1016)
@@ -3110,7 +3144,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 26.67) (xy -12.7 26.67)
+						(xy 25.4 0) (xy 0 0)
 					)
 					(stroke
 						(width 0.1016)
@@ -3122,7 +3156,7 @@
 				)
 				(polyline
 					(pts
-						(xy 12.7 -26.67) (xy 12.7 26.67)
+						(xy 25.4 -53.34) (xy 25.4 0)
 					)
 					(stroke
 						(width 0.1016)
@@ -3133,7 +3167,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 24.13 0)
+					(at -5.08 -2.54 0)
 					(length 5.08)
 					(name "LRCK"
 						(effects
@@ -3151,7 +3185,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 20.32 0)
+					(at -5.08 -6.35 0)
 					(length 5.08)
 					(name "DIN"
 						(effects
@@ -3169,7 +3203,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 16.51 0)
+					(at -5.08 -10.16 0)
 					(length 5.08)
 					(name "BCK"
 						(effects
@@ -3187,7 +3221,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 12.7 0)
+					(at -5.08 -13.97 0)
 					(length 5.08)
 					(name "SCK"
 						(effects
@@ -3205,7 +3239,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 3.81 0)
+					(at -5.08 -22.86 0)
 					(length 5.08)
 					(name "FLT"
 						(effects
@@ -3223,7 +3257,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 0 0)
+					(at -5.08 -26.67 0)
 					(length 5.08)
 					(name "DEMP"
 						(effects
@@ -3241,7 +3275,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 -3.81 0)
+					(at -5.08 -30.48 0)
 					(length 5.08)
 					(name "FMT"
 						(effects
@@ -3259,7 +3293,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 -7.62 0)
+					(at -5.08 -34.29 0)
 					(length 5.08)
 					(name "XSMT"
 						(effects
@@ -3277,7 +3311,7 @@
 					)
 				)
 				(pin power_in line
-					(at -17.78 -13.97 0)
+					(at -5.08 -40.64 0)
 					(length 5.08)
 					(name "LDOO"
 						(effects
@@ -3295,7 +3329,7 @@
 					)
 				)
 				(pin power_in line
-					(at -17.78 -19.05 0)
+					(at -5.08 -45.72 0)
 					(length 5.08)
 					(name "DGND"
 						(effects
@@ -3313,7 +3347,7 @@
 					)
 				)
 				(pin power_in line
-					(at -17.78 -24.13 0)
+					(at -5.08 -50.8 0)
 					(length 5.08)
 					(name "DVDD"
 						(effects
@@ -3331,7 +3365,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 24.13 180)
+					(at 30.48 -2.54 180)
 					(length 5.08)
 					(name "AVDD"
 						(effects
@@ -3349,7 +3383,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 19.05 180)
+					(at 30.48 -7.62 180)
 					(length 5.08)
 					(name "AGND"
 						(effects
@@ -3367,7 +3401,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 12.7 180)
+					(at 30.48 -13.97 180)
 					(length 5.08)
 					(name "OUTL"
 						(effects
@@ -3385,7 +3419,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 6.35 180)
+					(at 30.48 -20.32 180)
 					(length 5.08)
 					(name "OUTR"
 						(effects
@@ -3403,7 +3437,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 0 180)
+					(at 30.48 -26.67 180)
 					(length 5.08)
 					(name "CAPP"
 						(effects
@@ -3421,7 +3455,7 @@
 					)
 				)
 				(pin output line
-					(at 17.78 -7.62 180)
+					(at 30.48 -34.29 180)
 					(length 5.08)
 					(name "CAPM"
 						(effects
@@ -3439,7 +3473,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 -13.97 180)
+					(at 30.48 -40.64 180)
 					(length 5.08)
 					(name "VNEG"
 						(effects
@@ -3457,7 +3491,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 -19.05 180)
+					(at 30.48 -45.72 180)
 					(length 5.08)
 					(name "CPGND"
 						(effects
@@ -3475,7 +3509,7 @@
 					)
 				)
 				(pin power_in line
-					(at 17.78 -24.13 180)
+					(at 30.48 -50.8 180)
 					(length 5.08)
 					(name "CPVDD"
 						(effects
@@ -4734,17 +4768,6 @@
 		)
 		(uuid "1b1d3710-69a0-4d57-8514-4738131863ff")
 	)
-	(text "02/06/2026"
-		(exclude_from_sim no)
-		(at 188.468 199.898 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "559863a1-b131-4001-875a-d7f6efd50100")
-	)
 	(text "Add value for:\nQ1\nD1,2\nR7, 8\nL1"
 		(exclude_from_sim no)
 		(at 66.802 -21.082 0)
@@ -4755,17 +4778,6 @@
 			(justify left top)
 		)
 		(uuid "5bc46996-b4b5-4294-af88-11d57002374a")
-	)
-	(text "ESP32 Portable Bluetooth DAC/AMP"
-		(exclude_from_sim no)
-		(at 168.148 196.85 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0883346-282e-4543-97e9-662eede53288")
 	)
 	(text "Add footprint for:\nQ1\nD1,2"
 		(exclude_from_sim no)
@@ -9800,130 +9812,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE402FinalProj:PCM5100APWR")
-		(at 220.98 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78ba83ca-a8a9-4c4b-b344-2c28b8a4b9d4")
-		(property "Reference" "U1"
-			(at 220.98 51.562 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "PCM5100APWR"
-			(at 220.98 55.372 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "ECE402FinalProj:PCM5100APWR"
-			(at 218.44 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/pcm5100a"
-			(at 218.44 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 220.98 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "22a6f747-c9ab-498a-9566-e9895817cc14")
-		)
-		(pin "10"
-			(uuid "9b8599c7-2e06-4aea-b836-615e3fcb6600")
-		)
-		(pin "1"
-			(uuid "27cb7af8-8127-4362-aac4-e3d321103cae")
-		)
-		(pin "14"
-			(uuid "7d5e4069-abbc-42fd-91af-a3db5cc5b064")
-		)
-		(pin "20"
-			(uuid "c223b9f1-3fd7-42d3-a701-14040bdb2232")
-		)
-		(pin "12"
-			(uuid "3cd15f43-9299-44fb-8b02-ca470d508a43")
-		)
-		(pin "19"
-			(uuid "c8178e90-9e61-4cbf-8ba6-54eda8233c00")
-		)
-		(pin "15"
-			(uuid "59d8abf6-02a4-49c2-9cd4-b3eca9cb8da2")
-		)
-		(pin "7"
-			(uuid "7f9f65d7-2340-4e15-8100-dfe7f8afd6d2")
-		)
-		(pin "4"
-			(uuid "85a1e708-c4fe-486b-a249-da3f5c02bb8e")
-		)
-		(pin "13"
-			(uuid "2d3f85f7-6045-4acc-9edf-879dfd5a0613")
-		)
-		(pin "11"
-			(uuid "b702ea7c-58ac-45ba-af34-bb5afc7645b5")
-		)
-		(pin "6"
-			(uuid "2f6e2ce4-1efd-4f14-a099-c171fd7847ca")
-		)
-		(pin "2"
-			(uuid "3eddeee2-5780-4328-bb8b-5e6478c2553e")
-		)
-		(pin "5"
-			(uuid "8d6a9618-8295-4bcc-93fd-4dcf107f83d7")
-		)
-		(pin "16"
-			(uuid "81d6d126-bb21-4786-86e9-9b56b85e459d")
-		)
-		(pin "17"
-			(uuid "0ad520da-f10f-435f-87ed-840243b9953e")
-		)
-		(pin "9"
-			(uuid "45cbaa0b-0a28-4576-85ee-7e206830a2f1")
-		)
-		(pin "18"
-			(uuid "d949a8c2-20bc-4d8f-a908-7da97584b94a")
-		)
-		(pin "3"
-			(uuid "08364dc1-bb89-4490-b121-e23f1e38a867")
-		)
-		(instances
-			(project ""
-				(path "/b3b9d018-954a-4fab-ac7e-c234f13b80c6"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 52.07 91.44 0)
 		(unit 1)
@@ -10633,6 +10521,166 @@
 		)
 	)
 	(symbol
+		(lib_id "ECE402FinalProj:PCM5100APWR")
+		(at 208.28 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "953c7744-aa2d-4e82-bf72-5b483d88cc04")
+		(property "Reference" "U1"
+			(at 220.98 13.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "PCM5100APWR"
+			(at 220.98 16.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+			(at 268.224 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/pcm5100a"
+			(at 272.288 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC DAC 16/24/32BIT 384K 20TSSOP"
+			(at 271.018 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Texas Instruments"
+			(at 261.874 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part No." "PCM5100APWR"
+			(at 260.096 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "https://www.digikey.com/en/products/detail/texas-instruments/PCM5100APWR/4341332?gclsrc=aw.ds&gad_source=1&gad_campaignid=17338792030&gbraid=0AAAAADrbLlikoHYVm1EAT8Ro0lFRq30vw&gclid=CjwKCAiAv5bMBhAIEiwAqP9GuJ40P9n3nzht8Krs9izPPDkGNq60HQeCsuY7D_maf0OzrZdjZgSlNBoC1acQAvD_BwE"
+			(at 406.146 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 2" "https://www.lcsc.com/search?q=PCM5100APWR&s_z=n_PCM5100APWR"
+			(at 287.274 60.706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "20"
+			(uuid "077cce56-fe87-4bb2-872f-f9afec9d96f6")
+		)
+		(pin "16"
+			(uuid "f56d46e2-3352-4f5f-a1a7-a79351fcaf15")
+		)
+		(pin "3"
+			(uuid "527aa4a6-d5e7-4754-820d-8bfbc48b8340")
+		)
+		(pin "7"
+			(uuid "78c17430-3d65-433b-b5c6-71e49e995ea2")
+		)
+		(pin "10"
+			(uuid "b8dfcaf1-3309-483b-a4e6-d01871bb9ebf")
+		)
+		(pin "17"
+			(uuid "67f04da1-bf30-4bc2-a734-02c5a031c0fd")
+		)
+		(pin "8"
+			(uuid "d539fbc8-5675-4ed0-a48d-027dfc5c58c1")
+		)
+		(pin "11"
+			(uuid "a166851d-f95a-4c87-bdbe-475ac74692ad")
+		)
+		(pin "14"
+			(uuid "da199029-b671-4777-8af3-169ea41be7e4")
+		)
+		(pin "13"
+			(uuid "9bf9c6cf-fb03-434f-b18f-564cee088ecd")
+		)
+		(pin "4"
+			(uuid "f6537197-2dfa-4ff0-bcd5-f469ebfb8baa")
+		)
+		(pin "9"
+			(uuid "046a0dc4-7d07-4836-ae5a-c89764c6290d")
+		)
+		(pin "6"
+			(uuid "95281720-1ef8-4edd-865e-30cc149c6bab")
+		)
+		(pin "12"
+			(uuid "7df2bb1e-15c2-4fd1-9fa1-4141f576a687")
+		)
+		(pin "15"
+			(uuid "f8a1a0de-2cc0-4636-8926-319420b26e38")
+		)
+		(pin "18"
+			(uuid "d7471cf3-7abc-47e6-aa3b-4730515d1a32")
+		)
+		(pin "19"
+			(uuid "39ec6447-f5b0-4440-8aae-894cdacb6b4a")
+		)
+		(pin "2"
+			(uuid "c7b0bf6a-14cc-4b1b-883d-abf5b9f6739e")
+		)
+		(pin "5"
+			(uuid "b10554ee-eb44-4420-af04-fe8bb51474e8")
+		)
+		(pin "1"
+			(uuid "4f3db172-2838-45f4-ad64-3e719e525ad5")
+		)
+		(instances
+			(project ""
+				(path "/b3b9d018-954a-4fab-ac7e-c234f13b80c6"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 195.58 63.5 0)
 		(unit 1)
@@ -11138,6 +11186,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -12116,16 +12165,15 @@
 	)
 	(symbol
 		(lib_id "ECE402FinalProj:BQ25308RTER")
-		(at 115.57 46.99 0)
+		(at 102.87 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e804666d-ba9b-46cb-85da-01f06c524cc6")
 		(property "Reference" "U3"
-			(at 115.824 46.228 0)
+			(at 104.648 31.75 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12133,7 +12181,7 @@
 			)
 		)
 		(property "Value" "BQ25308RTER"
-			(at 115.824 48.768 0)
+			(at 125.222 64.008 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12141,7 +12189,7 @@
 			)
 		)
 		(property "Footprint" "WQFN16_RTE_TEX"
-			(at 95.25 35.56 0)
+			(at 147.828 55.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12151,7 +12199,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/bq25308"
-			(at 95.25 35.56 0)
+			(at 157.988 58.674 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12161,7 +12209,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 46.99 0)
+			(at 102.87 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
