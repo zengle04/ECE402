@@ -1,4 +1,4 @@
-27226100087199785
+27238506666826281
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62195,12 +62195,40 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 ECE402FinalProj
+AN043_2.4GHz_PCB_Antenna
+
+
+0
+2
+2
+ECE402FinalProj
+ASJ-200-B-HT_ADM
+
+ASJ-200-B-HT 
+0
+0
+0
+ECE402FinalProj
+CUI_SJ2-25774A-SMT-TR
+
+
+0
+4
+4
+ECE402FinalProj
 DBV0005A-IPC_B
 
 TLV74033PDBVR 
 0
 5
 5
+ECE402FinalProj
+LogoDecal
+
+
+0
+0
+0
 ECE402FinalProj
 PCM5100APWR
 
@@ -62215,6 +62243,27 @@ TPA6133A2RTJR
 0
 30
 22
+ECE402FinalProj
+SOP-8_E5.2mm_P1.27mm
+SOP, 8 Pin (https://ww2.minicircuits.com/case_style/XX211.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+8
+8
+ECE402FinalProj
+SW_SLW-129956-4A-RA-N-D
+
+
+0
+5
+5
+ECE402FinalProj
+Untitled
+
+
+0
+0
+0
 ECE402FinalProj
 WQFN16_RTE_TEX
 
