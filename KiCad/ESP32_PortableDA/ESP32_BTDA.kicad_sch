@@ -5798,6 +5798,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+BATT"
 			(power)
 			(pin_numbers
@@ -7518,7 +7601,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 198.12) (xy 53.34 198.12)
+			(xy 55.88 198.12) (xy 62.23 198.12)
 		)
 		(stroke
 			(width 0)
@@ -7708,6 +7791,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 119.38) (xy 278.13 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e766a4-87aa-4424-a8af-4f911deb332f")
+	)
+	(wire
+		(pts
 			(xy 111.76 224.79) (xy 111.76 226.06)
 		)
 		(stroke
@@ -7838,7 +7931,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 194.31) (xy 53.34 194.31)
+			(xy 55.88 194.31) (xy 62.23 194.31)
 		)
 		(stroke
 			(width 0)
@@ -8408,16 +8501,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 198.12) (xy 62.23 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "680253be-d5aa-4c90-8adc-950577fe1ff9")
-	)
-	(wire
-		(pts
 			(xy 298.45 44.45) (xy 298.45 57.15)
 		)
 		(stroke
@@ -8425,16 +8508,6 @@
 			(type default)
 		)
 		(uuid "6948a8b9-f70e-4ce8-8e88-8b036a754b0a")
-	)
-	(wire
-		(pts
-			(xy 58.42 201.93) (xy 62.23 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6979237e-d41b-4ed7-97b2-ec0a104320d5")
 	)
 	(wire
 		(pts
@@ -8565,16 +8638,6 @@
 			(type default)
 		)
 		(uuid "7046b0ef-76b9-4b1b-a374-8741290b3dfc")
-	)
-	(wire
-		(pts
-			(xy 58.42 194.31) (xy 62.23 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "705249e2-b3aa-47b0-92f9-ce9397293900")
 	)
 	(wire
 		(pts
@@ -8925,6 +8988,16 @@
 			(type default)
 		)
 		(uuid "856185b4-9d02-4c8a-8e63-89ff37d511d6")
+	)
+	(wire
+		(pts
+			(xy 271.78 118.11) (xy 271.78 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8789d277-e443-4532-b041-9c3a17453e83")
 	)
 	(wire
 		(pts
@@ -9468,16 +9541,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 119.38) (xy 271.78 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad69ed02-ef4f-48fb-a9ae-42b5083a801a")
-	)
-	(wire
-		(pts
 			(xy 318.77 68.58) (xy 332.74 68.58)
 		)
 		(stroke
@@ -9745,16 +9808,6 @@
 			(type default)
 		)
 		(uuid "be0f9230-4b7a-48ed-9eea-a538f11f79a8")
-	)
-	(wire
-		(pts
-			(xy 271.78 118.11) (xy 271.78 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be72356b-bbbe-4697-afed-b5eb96f1e3f8")
 	)
 	(wire
 		(pts
@@ -10148,7 +10201,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 201.93) (xy 53.34 201.93)
+			(xy 55.88 201.93) (xy 62.23 201.93)
 		)
 		(stroke
 			(width 0)
@@ -10956,6 +11009,16 @@
 		)
 		(uuid "5de092af-314d-4f41-bc09-6a47ab1e382d")
 	)
+	(label "ts"
+		(at 107.95 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6676cf75-21ef-4e6b-bcd8-c5a7483e0b72")
+	)
 	(label "btst"
 		(at 147.32 60.96 0)
 		(effects
@@ -11126,6 +11189,16 @@
 		)
 		(uuid "a15f78df-3f2d-439a-a6d8-349c37595e04")
 	)
+	(label "test"
+		(at 147.32 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1f0b43c-2fff-4af8-824e-180044149289")
+	)
 	(label "cc2"
 		(at 63.5 64.77 0)
 		(effects
@@ -11236,7 +11309,7 @@
 		)
 		(uuid "c5a634da-0dea-4dd5-ad2f-b0ed7088fe9f")
 	)
-	(label "cap1"
+	(label "capp"
 		(at 99.06 198.12 0)
 		(effects
 			(font
@@ -11375,6 +11448,16 @@
 			(justify left bottom)
 		)
 		(uuid "eaa9eb3e-81d8-4d42-93a6-efba99f14c93")
+	)
+	(label "mtdi"
+		(at 274.32 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebd97fee-09cc-485e-9f68-a15ab109990e")
 	)
 	(label "ldoo"
 		(at 48.26 212.09 0)
@@ -12358,7 +12441,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 201.93 0)
+		(at 55.88 201.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12366,7 +12449,7 @@
 		(dnp no)
 		(uuid "190af5aa-32c1-4aea-aecc-5621e2461923")
 		(property "Reference" "#PWR029"
-			(at 50.8 208.28 0)
+			(at 55.88 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12375,7 +12458,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 206.375 0)
+			(at 55.88 206.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12384,7 +12467,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 201.93 0)
+			(at 55.88 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12393,7 +12476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 201.93 0)
+			(at 55.88 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12402,7 +12485,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 201.93 0)
+			(at 55.88 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12489,7 +12572,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 194.31 0)
+		(at 55.88 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12497,7 +12580,7 @@
 		(dnp no)
 		(uuid "1dc5865c-64b0-4604-930e-af756e45dfc5")
 		(property "Reference" "#PWR031"
-			(at 50.8 200.66 0)
+			(at 55.88 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12506,7 +12589,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 198.755 0)
+			(at 55.88 198.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12515,7 +12598,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 194.31 0)
+			(at 55.88 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12524,7 +12607,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 194.31 0)
+			(at 55.88 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12533,7 +12616,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 194.31 0)
+			(at 55.88 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13908,6 +13991,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 289.56 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ff91d5b-54ba-4453-9bba-49b607c67372")
+		(property "Reference" "H1"
+			(at 292.1 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 292.1 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 289.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 289.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 289.56 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/b3b9d018-954a-4fab-ac7e-c234f13b80c6"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 72.39 0)
 		(unit 1)
@@ -14609,7 +14756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 111.4552 109.22 0)
 			(effects
 				(font
@@ -16367,75 +16514,6 @@
 			(project "ESP32S3_PCM5102_PortableDA"
 				(path "/b3b9d018-954a-4fab-ac7e-c234f13b80c6"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 55.88 194.31 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7bb3b446-9dd1-4e48-b800-2bf280c82993")
-		(property "Reference" "R19"
-			(at 55.626 196.088 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 57.912 196.088 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 55.88 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 55.88 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d310b07-bdc4-4f5c-8735-2bf9a1cb3f00")
-		)
-		(pin "2"
-			(uuid "7028b85a-c836-448f-ae1d-0cb902d2b4d8")
-		)
-		(instances
-			(project "ESP32_BTDA"
-				(path "/b3b9d018-954a-4fab-ac7e-c234f13b80c6"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -19210,7 +19288,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 50.8 198.12 0)
+		(at 55.88 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19218,7 +19296,7 @@
 		(dnp no)
 		(uuid "b7fef088-e7a6-47c9-a9cd-21ef9b7fe6fa")
 		(property "Reference" "#PWR030"
-			(at 50.8 204.47 0)
+			(at 55.88 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19227,7 +19305,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 50.8 202.565 0)
+			(at 55.88 202.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19236,7 +19314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 50.8 198.12 0)
+			(at 55.88 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19245,7 +19323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 198.12 0)
+			(at 55.88 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19254,7 +19332,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 198.12 0)
+			(at 55.88 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19540,6 +19618,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 311.15 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba634e90-7c70-4126-8771-c66be1e02389")
+		(property "Reference" "H4"
+			(at 313.69 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 313.69 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 311.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 311.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 311.15 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ESP32_BTDA"
+				(path "/b3b9d018-954a-4fab-ac7e-c234f13b80c6"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 162.56 171.45 0)
 		(unit 1)
@@ -19599,75 +19741,6 @@
 			(project "ESP32_BTDA"
 				(path "/b3b9d018-954a-4fab-ac7e-c234f13b80c6"
 					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 55.88 201.93 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf2a3c2b-29cb-4db0-86d8-d3219b330f27")
-		(property "Reference" "R17"
-			(at 55.626 203.708 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 57.912 203.708 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 55.88 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 55.88 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63b96c9b-ad28-448d-9324-7cd43ed9df5f")
-		)
-		(pin "2"
-			(uuid "e936b063-a336-47ee-bd2b-e8665065e47e")
-		)
-		(instances
-			(project "ESP32_BTDA"
-				(path "/b3b9d018-954a-4fab-ac7e-c234f13b80c6"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -20832,6 +20905,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 289.56 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2544933-b1b0-4b53-a240-22887f867343")
+		(property "Reference" "H3"
+			(at 292.1 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 292.1 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 289.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 289.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 289.56 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ESP32_BTDA"
+				(path "/b3b9d018-954a-4fab-ac7e-c234f13b80c6"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 156.21 170.18 90)
 		(unit 1)
@@ -21072,75 +21209,6 @@
 			(project ""
 				(path "/b3b9d018-954a-4fab-ac7e-c234f13b80c6"
 					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 55.88 198.12 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d62d696e-5c54-49a4-b89f-53c260eca2f3")
-		(property "Reference" "R18"
-			(at 55.626 199.898 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 57.912 199.898 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 55.88 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 55.88 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "edf4ec88-0b84-494c-a873-7f8be4faf894")
-		)
-		(pin "2"
-			(uuid "29c51424-6c85-43e0-a145-94bed1756ee6")
-		)
-		(instances
-			(project "ESP32_BTDA"
-				(path "/b3b9d018-954a-4fab-ac7e-c234f13b80c6"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -22399,6 +22467,70 @@
 			(project "ESP32S3_PCM5102_PortableDA"
 				(path "/b3b9d018-954a-4fab-ac7e-c234f13b80c6"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 309.88 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9a551a0-1b35-443f-aa1e-88cc5fda4d52")
+		(property "Reference" "H2"
+			(at 312.42 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 312.42 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad_TopBottom"
+			(at 309.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 309.88 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ESP32_BTDA"
+				(path "/b3b9d018-954a-4fab-ac7e-c234f13b80c6"
+					(reference "H2")
 					(unit 1)
 				)
 			)
